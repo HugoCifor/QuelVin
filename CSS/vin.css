@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(31, 31, 31);
 }
 
 .navbar{
     /* border: 1px red solid; */
     height: 80px;
     z-index: 5;
+    background-color: rgb(207, 207, 207);
     
 }
 
@@ -16,7 +17,8 @@ body{
     height: 10px;
     padding-left: 40px;
     z-index: 1;
-    background-color: rgb(81, 6, 6);
+    background-color: rgb(135, 12, 12);
+
     transition-duration: 100ms;
     color: rgba(240, 255, 255, 0);
     display: flex;
@@ -32,7 +34,7 @@ body{
 }
 
 .main{
-    border:  red solid 1px;
+    /* border:  red solid 1px; */
     height: calc(100vh - 95px);
     display: flex;
     justify-content: space-evenly;
@@ -40,27 +42,55 @@ body{
 }
 
 #choix{
-    border: rgb(94, 94, 94) 1px solid;
+    /* border: rgb(94, 94, 94) 1px solid; */
     height: 50vh;
     margin-top: auto;
     margin-bottom: auto;
     width: 22vw;
 }
 
+.choix1{
+
+    background: linear-gradient(to bottom right, rgb(31, 31, 31), rgb(135, 12, 12));
+
+}
+
+
 #choixTitre{
     /* border: 1px yellow solid; */
     height: 15%;
-    background-color: rgb(81, 6, 6);
+    background-color: rgb(253, 252, 251);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 200%;
+}
 
+#choixTitre:hover{
+    /* border: 1px yellow solid; */
+    height: 15%;
+    background-color: rgb(251, 239, 219);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 200%;
 }
 
 #choixMain{
     /* border: 1px red solid; */
     height: 65%;
+    overflow: hidden;
+
+}
+
+img{
+    width: 22vw;
+
 }
 
 #choixText{
     /* border: 1px green solid; */
-    background-color: rgb(81, 6, 6);
+    background-color: rgb(241, 241, 241);
     height: 20%;
 }
+
