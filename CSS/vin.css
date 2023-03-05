@@ -49,11 +49,11 @@ body{
     margin-bottom: auto;
     width: 22vw;
     transition-duration: 100ms;
+    cursor: pointer;
 
 }
 
 .choix1{
-
     background: linear-gradient(to bottom right, rgb(31, 31, 31), rgb(135, 12, 12));
 
 }
@@ -103,5 +103,9 @@ img{
     /* border: 1px green solid; */
     background-color: rgb(241, 241, 241);
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 

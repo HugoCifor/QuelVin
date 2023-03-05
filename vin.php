@@ -34,7 +34,7 @@
             <div id='choix' class="choix3"  onclick="window.location='./quizz/quizzAutresVins.php'">
                 <div id='choixTitre' class="choix3Titre">Autres vins</div>
                 <div id='choixMain' class="choix3Main"><img src="./images/combien-de-temps-se-garde-le-champagne.jpeg" alt=""></div>
-                <div id='choixText'  class="choix3Text">d'autres vin, d'autre spécialité, d'autre endroit</div>
+                <div id='choixText'  class="choix3Text">D'autres vin, d'autre spécialité, d'autre endroit</div>
             </div>
     </div>
 
