@@ -9,7 +9,8 @@
 </head>
 <body>
 
-    <div class="navbar"></div>
+    <div class="navbar"><h1 onclick="window.location='./index.php'">Met Vin</h1></div>
+    
 
     <div class="hidden"> 
         <div>about us</div>
@@ -20,20 +21,20 @@
     <div class="test"></div>
 
     <div class="main">
-            <div id='choix' class="choix1">
+            <div id='choix' class="choix1"  onclick="window.location='./quizz/quizzVinRouge.php'">
                 <div id='choixTitre' class="choix1Titre"> Vins rouges</div>
                 <div id='choixMain' class="choix1Main"><img src="./images/vinification-vin-rouge-removebg-preview.png" alt=""></div>
-                <div id='choixText' class="choix1Text"></div>
+                <div id='choixText' class="choix1Text">Trouvez un Vin Rouge qui vous correspond</div>
             </div>
-            <div id='choix' class="choix2">
+            <div id='choix' class="choix2"  onclick="window.location='./quizz/quizzVinBlanc.php'">
                 <div id='choixTitre' class="choix2Titre">Vins blancs</div>
                 <div id='choixMain' class="choix2Main"><img src="./images/choisir-son-vin-blanc-pour-les-fetes.jpeg" alt=""></div>
-                <div id='choixText' class="choix2Text"></div>
+                <div id='choixText' class="choix2Text">Un vin blanc pour votre soirée</div>
             </div>
-            <div id='choix' class="choix3">
+            <div id='choix' class="choix3"  onclick="window.location='./quizz/quizzAutresVins.php'">
                 <div id='choixTitre' class="choix3Titre">Autres vins</div>
                 <div id='choixMain' class="choix3Main"><img src="./images/combien-de-temps-se-garde-le-champagne.jpeg" alt=""></div>
-                <div id='choixText'  class="choix3Text"></div>
+                <div id='choixText'  class="choix3Text">d'autres vin, d'autre spécialité, d'autre endroit</div>
             </div>
     </div>
 
